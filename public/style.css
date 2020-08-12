@@ -1,50 +1,22 @@
 #gameScreen {
-  /* border: 3px solid #000000; */
   width: 55%;
-  border-radius: 3%;
+  border-radius: 1%;
   box-shadow: 1px 5px 8px #888888;
-  margin-top: 1%;
+  margin-top: 4%;
 }
 
 p {
   font-size: 17px;
+  color: rgb(94, 16, 16);
 }
 
-#borisGame {
-  width: 45%;
-  border-radius: 3%;
+/* #borisGame {
+  width: 100%;
+  margin-top: 10%;
+  border-radius: 1%;
   box-shadow: 1px 5px 8px #888888;
-}
+}  */
 
-html {
-  background-image: url("./images/orange.jpg");
-}
-
-.opening{
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 5px solid white;
-  border-radius: 2%;
-  box-shadow: 1px 5px 8px #888888;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 1%;
-  margin-top: 1%;
-}
-
-/* .navbar-nav {
-	box-shadow:inset 0px 1px 0px 0px #fce2c1;
-	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
-	background-color:#ffc477;
-	border-radius:10%;
-	border:1px solid #eeb44f;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-  padding:10px 24px;
-  margin: 10px;
-	text-decoration: none;
-	text-shadow:0px 0px 0px #cc9f52;
-} */
 .button:hover {
 	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
   background-color:#fb9e25;
@@ -54,37 +26,40 @@ html {
   transform: translate(0px, 5px);
 }
 
+#snoop {
+  width: 80%;
+}
+
 .button:focus {
   outline:none !important;
 }
 
+#snoopHero {
+  width: 40%;
+  /* left: 50%; */
+}
+
+#food {
+   width: 95px;
+}
 .button:active {
 	position:relative;
 	top:1px;
 }
 
-img{
-  margin: 3%;
+.home {
+  margin-top: 5%;
 }
-
-.background-container {
-  width: 90%;
-}
-
 .about-images-container {
-  margin-top: 1%;
-  border-radius: 2%;
+  margin-top: 4%;
+  width: 60%;
+  border-radius: 1%;
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 5px;
   border: 3px solid white;
 }
 
-.grid-item {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  padding: 2%;
-} 
 
 @media only screen and (max-width: 650px) {
   #borisGame {
@@ -92,19 +67,15 @@ img{
     box-shadow: 1px 5px 8px #888888;
     margin-top: 10%;
   }
-
-  .background-container {
-    width: 100%;
-  }
 }
 
 .title {
-  font-size: 50px;
-  padding: 4%;
+  font-size: 40px;
+  padding: 2.5%;
   position: absolute;
- right: 0px;
- left: 0px;
-  top: 24%;
+  right: 0px;
+  left: 0px;
+  top: 20%;
   margin-right: 30%;
   margin-left: 30%;
   background-color: white;
@@ -116,9 +87,5 @@ img{
 .header {
   /* background-color: rgba(255, 255, 255, 0.8); */
   background-image: url("./assets/masks.jpg");
-  padding: 7%;
+  padding: 6%;
 }
-
-/* #nav{
-  background-color: #fff5cd ;
-} */
