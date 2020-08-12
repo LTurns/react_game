@@ -16,8 +16,8 @@ p {
   box-shadow: 1px 5px 8px #888888;
 }
 
-body {
-  background-image: url("https://data.whicdn.com/images/208932206/original.gif");
+html {
+  background-image: url("./images/orange.jpg");
 }
 
 .opening{
@@ -31,7 +31,7 @@ body {
   margin-top: 1%;
 }
 
-.button {
+/* .navbar-nav {
 	box-shadow:inset 0px 1px 0px 0px #fce2c1;
 	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
 	background-color:#ffc477;
@@ -41,9 +41,10 @@ body {
 	cursor:pointer;
 	color:#ffffff;
   padding:10px 24px;
+  margin: 10px;
 	text-decoration: none;
 	text-shadow:0px 0px 0px #cc9f52;
-}
+} */
 .button:hover {
 	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
   background-color:#fb9e25;
@@ -67,7 +68,7 @@ img{
 }
 
 .background-container {
-  width: 60%;
+  width: 90%;
 }
 
 .about-images-container {
@@ -98,13 +99,26 @@ img{
 }
 
 .title {
-  font-size: 60px;
-  font-weight: bold;
+  font-size: 50px;
+  padding: 4%;
+  position: absolute;
+ right: 0px;
+ left: 0px;
+  top: 24%;
+  margin-right: 30%;
+  margin-left: 30%;
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 1px 5px 8px #888888;
+  color: #ff7149;
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 1%;
-  border-radius: 5%;
-
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-image: url("./assets/masks.jpg");
+  padding: 7%;
 }
+
+/* #nav{
+  background-color: #fff5cd ;
+} */

@@ -1,19 +1,34 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 
 function Header(){
   return(
-    <div className="header">
+    <div>
       <center>
-      <h1 class="title"> Run Boris, Run! </h1>
-      <div className="link-group">
-        <a href="/" className="button" >Home</a>
-        <a href="/controls" className="button" >Controls</a>
-        <a href="/play" className="button" >Play</a>
-      </div>
-      </center>
-      <br/>
-    </div>
+    <nav id="nav" class="navbar-right navbar-expand-sm bg-light">
+
+   <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/controls">Controls</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/play">Play</a>
+    </li>
+     </ul>
+    </nav>
+      <div className="header">
+        </div>
+       <center>
+ <h1 class="title"><em>JUST DISTANCE </em></h1>
+ </center>
+ </center>
+ </div>
+
   )
 }
 
