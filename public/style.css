@@ -73,12 +73,9 @@ p {
 .title {
   font-size: 40px;
   padding: 2.5%;
-  position: absolute;
   right: 0px;
   left: 0px;
   top: 20%;
-  margin-right: 30%;
-  margin-left: 30%;
   background-color: white;
   border-radius: 2%;
   box-shadow: 1px 5px 8px #888888;
@@ -88,5 +85,5 @@ p {
 .header {
   /* background-color: rgba(255, 255, 255, 0.8); */
   background-image: url("./assets/masks.jpg");
-  padding: 6%;
+  padding: 2%;
 }
