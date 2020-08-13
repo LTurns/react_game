@@ -18,7 +18,7 @@ console.log(image)
 
 function Home(){
   return(
-    <div>
+    <div class="container"r>
     <div class="home">
   <Row>
     <Col xs={12} md={12}>
@@ -33,26 +33,31 @@ function Home(){
     </Row>
     </div>
     <Row>
-    <Col xs={12} md={3}>
+    <Col xs={12} md={6}>
     <center>
+        <Col xs={12} md={8}>
         <Image src={pizza} id="food"/>
-        <Col xs={12} md={6}>
         <Image src={sushi} id="food" />
         <Image src={pasta} id="food" />
+        <Image src={soup} id="food" />
+        </Col>
+        <Col xs={12} md={6}>
+        <Image src={burger2} id="food" />
+        <Image src={burger1} id="food" />
       </Col>
         </center>
     </Col>
-    <Col xs={12} md={3}>
+    <Col xs={12} md={6}>
       <center>
         <Image src={snoopHero} id="snoopHero" />
         </center>
     </Col>
-    <Col xs={12} md={3}>
+    {/* <Col xs={12} md={3}>
       <center>
         <Image src={snoop} id="snoop" />
         </center>
-    </Col>
-    <Col xs={12} md={3}>
+    </Col> */}
+    {/* <Col xs={12} md={3}>
     <center>
     <Col xs={12} md={12}>
         <Image src={soup} id="food" />
@@ -62,8 +67,13 @@ function Home(){
         <Image src={burger1} id="food" />
         </Col>
       </center>
-    </Col>
+    </Col> */}
   </Row>
+  {/* <Col xs={12} md={6}>
+      <center>
+        <Image src={snoopHero} id="snoopHero" />
+        </center>
+    </Col> */}
     </div>
   )
 }

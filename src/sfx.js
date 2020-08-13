@@ -6,6 +6,8 @@ import music from "../src/media/bgm.mp3"
 import stayAtHome from "../src/media/stayAtHome.mp3"
 import hit from "../src/media/hit.mp3"
 import jellies from "../src/media/jellies.mp3"
+import wiggle from '../src/media/wiggle.mp3'
+import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider'
 
 export default class Sfx{
   constructor(hero, input) {
@@ -18,18 +20,19 @@ export default class Sfx{
     this.bumpPlay = false;
     this.musicPlay = false;
     this.stayAtHome = new Audio(stayAtHome);
+    this.wiggle = new Audio(wiggle)
     this.hit = new Audio(hit);
     this.jellies = new Audio(jellies);
   };
 
   gameSFX = () => {
-    if (this.hero.jumpSpeed === -10 && this.input.muted === false){
-      this.jumpAudio.play();
-      this.jumpPlay = true;
-    } else if (this.hero.position.x < 0 && this.input.muted === false){
-      this.bump.play();
-      this.bumpPlay = true;
-    }
+    // if (this.hero.jumpSpeed === -10 && this.input.muted === false){
+    //   this.jumpAudio.play();
+    //   this.jumpPlay = true;
+    // } else if (this.hero.position.x < 0 && this.input.muted === false){
+    //   this.bump.play();
+    //   this.bumpPlay = true;
+    // }
   };
 
   gameMusic = () => {

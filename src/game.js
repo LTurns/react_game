@@ -31,6 +31,7 @@ export default class Game {
     ctx.textAlign = "center";
     if (this.gameOver){
       this.sfx.stayAtHome.play()
+      this.sfx.wiggle.play();
       ctx.fillText("Game Over", this.game_width / 2, this.game_height - 600);
     } else if (this.paused){
       ctx.fillText("Paused", this.game_width / 2, this.game_height - 600);
